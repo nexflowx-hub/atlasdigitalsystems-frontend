@@ -1,0 +1,2002 @@
+     1→    75→* cards;
+     2→    76→* section spacing;
+     3→    77→* product presentation;
+     4→    78→* business section;
+     5→    79→* CTA treatment;
+     6→    80→* footer structure.
+     7→    81→
+     8→    82→Target approximately:
+     9→    83→
+    10→    84→**95–100% conceptual visual fidelity**
+    11→    85→
+    12→    86→while improving:
+    13→    87→
+    14→    88→* responsiveness;
+    15→    89→* accessibility;
+    16→    90→* factual accuracy;
+    17→    91→* SEO;
+    18→    92→* production architecture;
+    19→    93→* Stripe integration;
+    20→    94→* legal/institutional completeness.
+    21→    95→
+    22→    96→Whenever there is a conflict between:
+    23→    97→
+    24→    98→1. generic shadcn defaults;
+    25→    99→2. an arbitrary template;
+    26→   100→3. the supplied ATLAS mockup;
+    27→   101→
+    28→   102→the attached mockup wins.
+    29→   103→
+    30→   104→---
+    31→   105→
+    32→   106→# 2. IMPORTANT MOCKUP CORRECTION RULE
+    33→   107→
+    34→   108→The mockup contains illustrative items such as:
+    35→   109→
+    36→   110→* 10K+ users;
+    37→   111→* 50+ countries;
+    38→   112→* 99.9% uptime;
+    39→   113→* customer numbers;
+    40→   114→* partner logos;
+    41→   115→* Stripe;
+    42→   116→* PayPal;
+    43→   117→* Slack;
+    44→   118→* Notion;
+    45→   119→* Shopify;
+    46→   120→* AWS;
+    47→   121→* ratings or social proof.
+    48→   122→
+    49→   123→These are VISUAL PLACEHOLDERS, not factual commercial claims.
+    50→   124→
+    51→   125→DO NOT publish fictional metrics or imply partnerships that do not exist.
+    52→   126→
+    53→   127→Preserve the visual composition but replace these with truthful content.
+    54→   128→
+    55→   129→For example replace:
+    56→   130→
+    57→   131→“10K+ Active Users”
+    58→   132→
+    59→   133→with:
+    60→   134→
+    61→   135→**Software, AI & Automation**
+    62→   136→
+    63→   137→Replace:
+    64→   138→
+    65→   139→“50+ Countries”
+    66→   140→
+    67→   141→with:
+    68→   142→
+    69→   143→**International-ready products**
+    70→   144→
+    71→   145→Replace:
+    72→   146→
+    73→   147→“99.9% Uptime”
+    74→   148→
+    75→   149→with:
+    76→   150→
+    77→   151→**Built on modern cloud infrastructure**
+    78→   152→
+    79→   153→Replace:
+    80→   154→
+    81→   155→“24/7 Support”
+    82→   156→
+    83→   157→with:
+    84→   158→
+    85→   159→**Professional customer support**
+    86→   160→
+    87→   161→Do not display third-party company logos in a section titled “Trusted by” unless there is an actual relationship.
+    88→   162→
+    89→   163→Third-party logos may only appear where factually appropriate, for example:
+    90→   164→
+    91→   165→**Works with / Built using / Payment methods**
+    92→   166→
+    93→   167→and only when technically true and brand guidelines permit it.
+    94→   168→
+    95→   169→---
+    96→   170→
+    97→   171→# 3. COMPANY IDENTITY
+    98→   172→
+    99→   173→Commercial brand:
+   100→   174→
+   101→   175→# ATLAS DIGITAL SYSTEMS
+   102→   176→
+   103→   177→Legal entity:
+   104→   178→
+   105→   179→# ATLAS DIGITAL SYSTEMS, LLC
+   106→   180→
+   107→   181→Jurisdiction:
+   108→   182→
+   109→   183→# Delaware, United States
+   110→   184→
+   111→   185→Legal structure:
+   112→   186→
+   113→   187→Delaware Limited Liability Company
+   114→   188→
+   115→   189→Delaware File Number:
+   116→   190→
+   117→   191→`[DELAWARE_FILE_NUMBER]`
+   118→   192→
+   119→   193→EIN:
+   120→   194→
+   121→   195→DO NOT publish publicly.
+   122→   196→
+   123→   197→Business address:
+   124→   198→
+   125→   199→`[ATLAS_BUSINESS_ADDRESS]`
+   126→   200→
+   127→   201→Registered Agent information:
+   128→   202→
+   129→   203→keep configurable internally but do not prominently publish unless legally required.
+   130→   204→
+   131→   205→Primary domain:
+   132→   206→
+   133→   207→`atlasdigitalsystems.co`
+   134→   208→
+   135→   209→---
+   136→   210→
+   137→   211→# 4. CONTACT INFORMATION
+   138→   212→
+   139→   213→Use the following configurable company contacts.
+   140→   214→
+   141→   215→General:
+   142→   216→
+   143→   217→**[hello@atlasdigitalsystems.co](mailto:hello@atlasdigitalsystems.co)**
+   144→   218→
+   145→   219→Support:
+   146→   220→
+   147→   221→**[support@atlasdigitalsystems.co](mailto:support@atlasdigitalsystems.co)**
+   148→   222→
+   149→   223→Sales:
+   150→   224→
+   151→   225→**[sales@atlasdigitalsystems.co](mailto:sales@atlasdigitalsystems.co)**
+   152→   226→
+   153→   227→Billing:
+   154→   228→
+   155→   229→**[billing@atlasdigitalsystems.co](mailto:billing@atlasdigitalsystems.co)**
+   156→   230→
+   157→   231→Privacy:
+   158→   232→
+   159→   233→**[privacy@atlasdigitalsystems.co](mailto:privacy@atlasdigitalsystems.co)**
+   160→   234→
+   161→   235→Security:
+   162→   236→
+   163→   237→**[security@atlasdigitalsystems.co](mailto:security@atlasdigitalsystems.co)**
+   164→   238→
+   165→   239→Legal:
+   166→   240→
+   167→   241→**[legal@atlasdigitalsystems.co](mailto:legal@atlasdigitalsystems.co)**
+   168→   242→
+   169→   243→Developers/API:
+   170→   244→
+   171→   245→**[developers@atlasdigitalsystems.co](mailto:developers@atlasdigitalsystems.co)**
+   172→   246→
+   173→   247→US telephone:
+   174→   248→
+   175→   249→# +1 302-595-5455
+   176→   250→
+   177→   251→Display:
+   178→   252→
+   179→   253→**+1 302-595-5455 — Voice & SMS**
+   180→   254→
+   181→   255→Make telephone links:
+   182→   256→
+   183→   257→`tel:+13025955455`
+   184→   258→
+   185→   259→SMS links where appropriate:
+   186→   260→
+   187→   261→`sms:+13025955455`
+   188→   262→
+   189→   263→Do not create additional fake phone numbers.
+   190→   264→
+   191→   265→---
+   192→   266→
+   193→   267→# 5. BUSINESS POSITIONING
+   194→   268→
+   195→   269→ATLAS DIGITAL SYSTEMS is a United States technology company.
+   196→   270→
+   197→   271→Primary positioning:
+   198→   272→
+   199→   273→# Build smarter.
+   200→   274→
+   201→   275→# Operate faster.
+   202→   276→
+   203→   277→Supporting statement:
+   204→   278→
+   205→   279→> Software, AI and automation products designed to turn complex work into practical systems.
+   206→   280→
+   207→   281→Alternative institutional wording:
+   208→   282→
+   209→   283→> ATLAS DIGITAL SYSTEMS develops software, SaaS applications, artificial intelligence tools, automation systems, data products and digital technology solutions for businesses and professionals.
+   210→   284→
+   211→   285→Brand character:
+   212→   286→
+   213→   287→* engineering-driven;
+   214→   288→* modern;
+   215→   289→* American technology company;
+   216→   290→* premium;
+   217→   291→* trustworthy;
+   218→   292→* enterprise-ready;
+   219→   293→* innovative;
+   220→   294→* commercial;
+   221→   295→* practical.
+   222→   296→
+   223→   297→Avoid presenting ATLAS primarily as:
+   224→   298→
+   225→   299→* an agency;
+   226→   300→* a consulting company;
+   227→   301→* a prompt store;
+   228→   302→* a crypto company;
+   229→   303→* a financial company.
+   230→   304→
+   231→   305→The main perception must be:
+   232→   306→
+   233→   307→# Technology Product Company
+   234→   308→
+   235→   309→---
+   236→   310→
+   237→   311→# 6. BUSINESS MODEL
+   238→   312→
+   239→   313→ATLAS can generate revenue through FOUR distinct models.
+   240→   314→
+   241→   315→## A. SaaS
+   242→   316→
+   243→   317→Recurring software subscriptions.
+   244→   318→
+   245→   319→Examples:
+   246→   320→
+   247→   321→Atlas AI Workspace
+   248→   322→Atlas Automate
+   249→   323→Atlas Data Workspace
+   250→   324→
+   251→   325→---
+   252→   326→
+   253→   327→## B. Digital Products
+   254→   328→
+   255→   329→One-time purchases.
+   256→   330→
+   257→   331→Examples:
+   258→   332→
+   259→   333→Business Automation Pack
+   260→   334→AI Business Toolkit
+   261→   335→Startup Launch System
+   262→   336→Business OS
+   263→   337→
+   264→   338→---
+   265→   339→
+   266→   340→## C. Productized Technology Services
+   267→   341→
+   268→   342→Clearly scoped professional services.
+   269→   343→
+   270→   344→Examples:
+   271→   345→
+   272→   346→Technology Assessment
+   273→   347→Automation Starter
+   274→   348→AI Business Setup
+   275→   349→Custom Software Sprint
+   276→   350→
+   277→   351→---
+   278→   352→
+   279→   353→## D. API / Usage Based
+   280→   354→
+   281→   355→Future:
+   282→   356→
+   283→   357→API calls
+   284→   358→AI processing
+   285→   359→workflow executions
+   286→   360→data processing
+   287→   361→
+   288→   362→Do NOT enable API billing until API functionality actually exists.
+   289→   363→
+   290→   364→---
+   291→   365→
+   292→   366→# 7. CORE PRODUCT ECOSYSTEM
+   293→   367→
+   294→   368→The ATLAS architecture has six main areas.
+   295→   369→
+   296→   370→## ATLAS AI
+   297→   371→
+   298→   372→Artificial Intelligence tools.
+   299→   373→
+   300→   374→Purpose:
+   301→   375→
+   302→   376→Think.
+   303→   377→
+   304→   378→Products:
+   305→   379→
+   306→   380→AI Workspace
+   307→   381→Business Assistant
+   308→   382→Document Intelligence
+   309→   383→AI tools
+   310→   384→future agents
+   311→   385→
+   312→   386→---
+   313→   387→
+   314→   388→## ATLAS SOFTWARE
+   315→   389→
+   316→   390→Software and SaaS products.
+   317→   391→
+   318→   392→Purpose:
+   319→   393→
+   320→   394→Build.
+   321→   395→
+   322→   396→Products:
+   323→   397→
+   324→   398→business applications
+   325→   399→internal tools
+   326→   400→SaaS platforms
+   327→   401→software solutions
+   328→   402→
+   329→   403→---
+   330→   404→
+   331→   405→## ATLAS AUTOMATE
+   332→   406→
+   333→   407→Automation.
+   334→   408→
+   335→   409→Purpose:
+   336→   410→
+   337→   411→Connect.
+   338→   412→
+   339→   413→Products:
+   340→   414→
+   341→   415→workflows
+   342→   416→AI automation
+   343→   417→business process automation
+   344→   418→integrations
+   345→   419→
+   346→   420→---
+   347→   421→
+   348→   422→## ATLAS DATA
+   349→   423→
+   350→   424→Data and intelligence.
+   351→   425→
+   352→   426→Purpose:
+   353→   427→
+   354→   428→Understand.
+   355→   429→
+   356→   430→Products:
+   357→   431→
+   358→   432→analytics
+   359→   433→document analysis
+   360→   434→CSV/Excel analysis
+   361→   435→business insights
+   362→   436→reports
+   363→   437→
+   364→   438→---
+   365→   439→
+   366→   440→## ATLAS CLOUD
+   367→   441→
+   368→   442→Infrastructure-related technology.
+   369→   443→
+   370→   444→Purpose:
+   371→   445→
+   372→   446→Run.
+   373→   447→
+   374→   448→Initially:
+   375→   449→
+   376→   450→technology architecture / deployment positioning.
+   377→   451→
+   378→   452→Do NOT falsely claim ATLAS owns:
+   379→   453→
+   380→   454→* datacenters;
+   381→   455→* global cloud regions;
+   382→   456→* proprietary cloud infrastructure.
+   383→   457→
+   384→   458→Use honest language.
+   385→   459→
+   386→   460→---
+   387→   461→
+   388→   462→## ATLAS LABS
+   389→   463→
+   390→   464→Experimental product area.
+   391→   465→
+   392→   466→Purpose:
+   393→   467→
+   394→   468→Explore.
+   395→   469→
+   396→   470→Use for:
+   397→   471→
+   398→   472→early-access tools
+   399→   473→experiments
+   400→   474→prototype products
+   401→   475→new software concepts.
+   402→   476→
+   403→   477→---
+   404→   478→
+   405→   479→# 8. INITIAL PRODUCT CATALOGUE
+   406→   480→
+   407→   481→Create realistic mock product data.
+   408→   482→
+   409→   483→---
+   410→   484→
+   411→   485→## PRODUCT 1
+   412→   486→
+   413→   487→# Atlas AI Workspace
+   414→   488→
+   415→   489→Type:
+   416→   490→
+   417→   491→SaaS
+   418→   492→
+   419→   493→Description:
+   420→   494→
+   421→   495→> An AI-powered workspace for business writing, research, document analysis, planning and productivity.
+   422→   496→
+   423→   497→Pricing:
+   424→   498→
+   425→   499→Free — $0
+   426→   500→
+   427→   501→Pro — $29/month
+   428→   502→
+   429→   503→Business — $79/month
+   430→   504→
+   431→   505→Status:
+   432→   506→
+   433→   507→Preview / Early Access until real AI backend is connected.
+   434→   508→
+   435→   509→Features:
+   436→   510→
+   437→   511→AI Chat
+   438→   512→Document tools
+   439→   513→Research support
+   440→   514→Business writing
+   441→   515→Planning
+   442→   516→Structured AI tools
+   443→   517→
+   444→   518→---
+   445→   519→
+   446→   520→## PRODUCT 2
+   447→   521→
+   448→   522→# Atlas Automate
+   449→   523→
+   450→   524→Type:
+   451→   525→
+   452→   526→SaaS
+   453→   527→
+   454→   528→Price:
+   455→   529→
+   456→   530→From $39/month
+   457→   531→
+   458→   532→Description:
+   459→   533→
+   460→   534→> Build and manage automated workflows connecting tasks, business processes and AI.
+   461→   535→
+   462→   536→Status:
+   463→   537→
+   464→   538→Preview initially.
+   465→   539→
+   466→   540→---
+   467→   541→
+   468→   542→## PRODUCT 3
+   469→   543→
+   470→   544→# Atlas Data Workspace
+   471→   545→
+   472→   546→Type:
+   473→   547→
+   474→   548→SaaS
+   475→   549→
+   476→   550→Price:
+   477→   551→
+   478→   552→From $29/month
+   479→   553→
+   480→   554→Description:
+   481→   555→
+   482→   556→> Analyse business information, documents and structured data through one intuitive workspace.
+   483→   557→
+   484→   558→Future inputs:
+   485→   559→
+   486→   560→CSV
+   487→   561→XLSX
+   488→   562→PDF
+   489→   563→
+   490→   564→Potential outputs:
+   491→   565→
+   492→   566→analysis
+   493→   567→summaries
+   494→   568→charts
+   495→   569→insights
+   496→   570→reports
+   497→   571→
+   498→   572→---
+   499→   573→
+   500→   574→## PRODUCT 4
+   501→   575→
+   502→   576→# Atlas Business Assistant
+   503→   577→
+   504→   578→Type:
+   505→   579→
+   506→   580→SaaS
+   507→   581→
+   508→   582→Price:
+   509→   583→
+   510→   584→$19/month
+   511→   585→
+   512→   586→Purpose:
+   513→   587→
+   514→   588→AI assistant for small businesses.
+   515→   589→
+   516→   590→Features:
+   517→   591→
+   518→   592→Email writing
+   519→   593→Proposal support
+   520→   594→Meeting summaries
+   521→   595→Planning
+   522→   596→Reports
+   523→   597→Business documentation.
+   524→   598→
+   525→   599→---
+   526→   600→
+   527→   601→# 9. DIGITAL PRODUCTS — IMMEDIATELY SELLABLE
+   528→   602→
+   529→   603→Create purchasable digital products.
+   530→   604→
+   531→   605→---
+   532→   606→
+   533→   607→## Atlas Business Automation Pack
+   534→   608→
+   535→   609→Price:
+   536→   610→
+   537→   611→# $49
+   538→   612→
+   539→   613→Includes:
+   540→   614→
+   541→   615→* 20 structured workflows;
+   542→   616→* automation templates;
+   543→   617→* implementation guide;
+   544→   618→* AI instructions;
+   545→   619→* business process templates.
+   546→   620→
+   547→   621→Delivery:
+   548→   622→
+   549→   623→digital.
+   550→   624→
+   551→   625→Licence:
+   552→   626→
+   553→   627→Business Licence.
+   554→   628→
+   555→   629→---
+   556→   630→
+   557→   631→## Atlas AI Business Toolkit
+   558→   632→
+   559→   633→Price:
+   560→   634→
+   561→   635→# $39
+   562→   636→
+   563→   637→Includes:
+   564→   638→
+   565→   639→* business AI prompts;
+   566→   640→* business templates;
+   567→   641→* productivity workflows;
+   568→   642→* decision frameworks;
+   569→   643→* planning tools.
+   570→   644→
+   571→   645→---
+   572→   646→
+   573→   647→## Atlas Startup Launch System
+   574→   648→
+   575→   649→Price:
+   576→   650→
+   577→   651→# $59
+   578→   652→
+   579→   653→Structure:
+   580→   654→
+   581→   655→Idea
+   582→   656→Market
+   583→   657→Positioning
+   584→   658→Customer
+   585→   659→Offer
+   586→   660→Pricing
+   587→   661→Website
+   588→   662→Marketing
+   589→   663→Launch.
+   590→   664→
+   591→   665→Formats:
+   592→   666→
+   593→   667→PDF
+   594→   668→DOCX
+   595→   669→XLSX where applicable
+   596→   670→Markdown resources.
+   597→   671→
+   598→   672→---
+   599→   673→
+   600→   674→## Atlas Marketing Automation Kit
+   601→   675→
+   602→   676→Price:
+   603→   677→
+   604→   678→# $39
+   605→   679→
+   606→   680→Includes:
+   607→   681→
+   608→   682→Campaign workflows
+   609→   683→Email frameworks
+   610→   684→Content planning
+   611→   685→Social content
+   612→   686→Lead workflow.
+   613→   687→
+   614→   688→---
+   615→   689→
+   616→   690→## Atlas Sales System
+   617→   691→
+   618→   692→Price:
+   619→   693→
+   620→   694→# $49
+   621→   695→
+   622→   696→Includes:
+   623→   697→
+   624→   698→Lead qualification
+   625→   699→Proposal templates
+   626→   700→Follow-up system
+   627→   701→Objection framework
+   628→   702→Sales workflows.
+   629→   703→
+   630→   704→---
+   631→   705→
+   632→   706→## Atlas Business OS
+   633→   707→
+   634→   708→Price:
+   635→   709→
+   636→   710→# $79
+   637→   711→
+   638→   712→Premium bundle.
+   639→   713→
+   640→   714→Includes:
+   641→   715→
+   642→   716→Business operations
+   643→   717→Marketing
+   644→   718→Sales
+   645→   719→AI
+   646→   720→Automation
+   647→   721→Project management
+   648→   722→Templates.
+   649→   723→
+   650→   724→---
+   651→   725→
+   652→   726→# 10. PRODUCTIZED SERVICES
+   653→   727→
+   654→   728→Create a separate category:
+   655→   729→
+   656→   730→# Professional Services
+   657→   731→
+   658→   732→---
+   659→   733→
+   660→   734→## Technology Assessment
+   661→   735→
+   662→   736→Price:
+   663→   737→
+   664→   738→# $199
+   665→   739→
+   666→   740→Includes:
+   667→   741→
+   668→   742→business technology questionnaire
+   669→   743→technology review
+   670→   744→automation opportunities
+   671→   745→software recommendations
+   672→   746→risk observations
+   673→   747→action roadmap.
+   674→   748→
+   675→   749→Delivery:
+   676→   750→
+   677→   751→digital consultation/report.
+   678→   752→
+   679→   753→---
+   680→   754→
+   681→   755→## Automation Starter
+   682→   756→
+   683→   757→Price:
+   684→   758→
+   685→   759→# From $499
+   686→   760→
+   687→   761→Scope:
+   688→   762→
+   689→   763→Implementation of one clearly defined business workflow.
+   690→   764→
+   691→   765→---
+   692→   766→
+   693→   767→## AI Business Setup
+   694→   768→
+   695→   769→Price:
+   696→   770→
+   697→   771→# From $799
+   698→   772→
+   699→   773→Potential scope:
+   700→   774→
+   701→   775→AI workflows
+   702→   776→business prompt systems
+   703→   777→team AI setup
+   704→   778→basic knowledge organisation
+   705→   779→automation planning.
+   706→   780→
+   707→   781→---
+   708→   782→
+   709→   783→## Custom Software Sprint
+   710→   784→
+   711→   785→Price:
+   712→   786→
+   713→   787→# From $1,500
+   714→   788→
+   715→   789→Description:
+   716→   790→
+   717→   791→> A defined software development sprint for a scoped product feature, internal tool or MVP component.
+   718→   792→
+   719→   793→Use:
+   720→   794→
+   721→   795→**Request Proposal**
+   722→   796→
+   723→   797→instead of direct checkout when scope needs validation.
+   724→   798→
+   725→   799→---
+   726→   800→
+   727→   801→# 11. PRODUCT STATUS SYSTEM
+   728→   802→
+   729→   803→Each product requires:
+   730→   804→
+   731→   805→```ts
+   732→   806→status:
+   733→   807→  "active"
+   734→   808→  "preview"
+   735→   809→  "early-access"
+   736→   810→  "coming-soon"
+   737→   811→  "contact-sales"
+   738→   812→```
+   739→   813→
+   740→   814→Only:
+   741→   815→
+   742→   816→`active`
+   743→   817→
+   744→   818→products can have live Stripe Buy buttons.
+   745→   819→
+   746→   820→Never let Preview/Coming Soon products enter live checkout.
+   747→   821→
+   748→   822→---
+   749→   823→
+   750→   824→# 12. TECH STACK
+   751→   825→
+   752→   826→Use:
+   753→   827→
+   754→   828→* Next.js latest stable
+   755→   829→* App Router
+   756→   830→* TypeScript
+   757→   831→* React
+   758→   832→* Tailwind CSS
+   759→   833→* shadcn/ui where appropriate
+   760→   834→* Lucide icons
+   761→   835→* next-intl
+   762→   836→* Zod
+   763→   837→* React Hook Form
+   764→   838→* Framer Motion
+   765→   839→* Recharts when useful
+   766→   840→* Stripe official Node/JS libraries
+   767→   841→
+   768→   842→Project must be:
+   769→   843→
+   770→   844→* GitHub-ready
+   771→   845→* Vercel-ready
+   772→   846→* responsive
+   773→   847→* accessible
+   774→   848→* SEO-ready
+   775→   849→* production quality
+   776→   850→* strongly typed
+   777→   851→* modular.
+   778→   852→
+   779→   853→Required:
+   780→   854→
+   781→   855→```bash
+   782→   856→npm install
+   783→   857→npm run dev
+   784→   858→npm run build
+   785→   859→npm run lint
+   786→   860→```
+   787→   861→
+   788→   862→All must succeed.
+   789→   863→
+   790→   864→---
+   791→   865→
+   792→   866→# 13. DATABASE — V1
+   793→   867→
+   794→   868→For the initial website:
+   795→   869→
+   796→   870→NO database required.
+   797→   871→
+   798→   872→Do NOT initially require:
+   799→   873→
+   800→   874→Supabase
+   801→   875→Firebase
+   802→   876→Prisma
+   803→   877→PostgreSQL
+   804→   878→MongoDB.
+   805→   879→
+   806→   880→Use strongly typed configuration/mock data.
+   807→   881→
+   808→   882→However Stripe Checkout must be architected so a database can later be inserted.
+   809→   883→
+   810→   884→---
+   811→   885→
+   812→   886→# 14. DATA ARCHITECTURE
+   813→   887→
+   814→   888→Create:
+   815→   889→
+   816→   890→```text
+   817→   891→src/config/company.ts
+   818→   892→src/config/navigation.ts
+   819→   893→src/config/payments.ts
+   820→   894→src/config/locales.ts
+   821→   895→src/config/stripe.ts
+   822→   896→src/config/features.ts
+   823→   897→
+   824→   898→src/data/products.ts
+   825→   899→src/data/services.ts
+   826→   900→src/data/solutions.ts
+   827→   901→src/data/faqs.ts
+   828→   902→src/data/articles.ts
+   829→   903→
+   830→   904→src/types/product.ts
+   831→   905→src/types/payment.ts
+   832→   906→src/types/service.ts
+   833→   907→src/types/order.ts
+   834→   908→```
+   835→   909→
+   836→   910→One product source should drive:
+   837→   911→
+   838→   912→homepage
+   839→   913→catalogue
+   840→   914→product detail
+   841→   915→checkout
+   842→   916→SEO
+   843→   917→structured data.
+   844→   918→
+   845→   919→Do not duplicate pricing manually across pages.
+   846→   920→
+   847→   921→---
+   848→   922→
+   849→   923→# 15. MULTILINGUAL
+   850→   924→
+   851→   925→Support:
+   852→   926→
+   853→   927→### English US
+   854→   928→
+   855→   929→`en-US`
+   856→   930→
+   857→   931→PRIMARY.
+   858→   932→
+   859→   933→### Portuguese Brazil
+   860→   934→
+   861→   935→`pt-BR`
+   862→   936→
+   863→   937→### Portuguese Portugal
+   864→   938→
+   865→   939→`pt-PT`
+   866→   940→
+   867→   941→### Spanish
+   868→   942→
+   869→   943→`es`
+   870→   944→
+   871→   945→### French
+   872→   946→
+   873→   947→`fr`
+   874→   948→
+   875→   949→Use:
+   876→   950→
+   877→   951→`next-intl`
+   878→   952→
+   879→   953→Translation files:
+   880→   954→
+   881→   955→```text
+   882→   956→messages/en-US.json
+   883→   957→messages/pt-BR.json
+   884→   958→messages/pt-PT.json
+   885→   959→messages/es.json
+   886→   960→messages/fr.json
+   887→   961→```
+   888→   962→
+   889→   963→Legal company name must NEVER be translated:
+   890→   964→
+   891→   965→# ATLAS DIGITAL SYSTEMS, LLC
+   892→   966→
+   893→   967→---
+   894→   968→
+   895→   969→# 16. COUNTRY DETECTION
+   896→   970→
+   897→   971→On Vercel detect probable visitor country using server-side headers such as:
+   898→   972→
+   899→   973→`x-vercel-ip-country`
+   900→   974→
+   901→   975→Fallback:
+   902→   976→
+   903→   977→browser locale.
+   904→   978→
+   905→   979→Do not request GPS.
+   906→   980→
+   907→   981→Allow manual override.
+   908→   982→
+   909→   983→Country detection may suggest:
+   910→   984→
+   911→   985→language
+   912→   986→currency
+   913→   987→payment method display.
+   914→   988→
+   915→   989→It must NOT change the legal merchant.
+   916→   990→
+   917→   991→Seller remains:
+   918→   992→
+   919→   993→# ATLAS DIGITAL SYSTEMS, LLC
+   920→   994→
+   921→   995→---
+   922→   996→
+   923→   997→# 17. CURRENCY SYSTEM
+   924→   998→
+   925→   999→Support:
+   926→  1000→
+   927→  1001→USD — primary
+   928→  1002→
+   929→  1003→GBP
+   930→  1004→
+   931→  1005→EUR
+   932→  1006→
+   933→  1007→BRL
+   934→  1008→
+   935→  1009→Use explicit configured regional pricing.
+   936→  1010→
+   937→  1011→Do NOT fake FX conversions.
+   938→  1012→
+   939→  1013→Example:
+   940→  1014→
+   941→  1015→```ts
+   942→  1016→pricing: {
+   943→  1017→  USD: 49,
+   944→  1018→  GBP: 39,
+   945→  1019→  EUR: 45,
+   946→  1020→  BRL: 299
+   947→  1021→}
+   948→  1022→```
+   949→  1023→
+   950→  1024→Stripe Price IDs must be individually configurable by currency/product.
+   951→  1025→
+   952→  1026→---
+   953→  1027→
+   954→  1028→# 18. VISUAL DESIGN
+   955→  1029→
+   956→  1030→Follow attached mockup.
+   957→  1031→
+   958→  1032→Main palette:
+   959→  1033→
+   960→  1034→Black/navy:
+   961→  1035→
+   962→  1036→`#040B13`
+   963→  1037→
+   964→  1038→`#06111F`
+   965→  1039→
+   966→  1040→`#081829`
+   967→  1041→
+   968→  1042→Blue:
+   969→  1043→
+   970→  1044→`#008DFF`
+   971→  1045→
+   972→  1046→`#147DFF`
+   973→  1047→
+   974→  1048→Cyan:
+   975→  1049→
+   976→  1050→`#17C8FF`
+   977→  1051→
+   978→  1052→Soft white:
+   979→  1053→
+   980→  1054→`#F5F9FC`
+   981→  1055→
+   982→  1056→Muted text:
+   983→  1057→
+   984→  1058→`#8EA0B4`
+   985→  1059→
+   986→  1060→Cards:
+   987→  1061→
+   988→  1062→deep blue/black with subtle blue borders.
+   989→  1063→
+   990→  1064→Use:
+   991→  1065→
+   992→  1066→* restrained gradients;
+   993→  1067→* subtle grid lines;
+   994→  1068→* orbital visual elements;
+   995→  1069→* technical diagrams;
+   996→  1070→* blue glow;
+   997→  1071→* premium depth;
+   998→  1072→* subtle motion.
+   999→  1073→
+  1000→  1074→Do not make it look like gaming or crypto.
+  1001→  1075→
+  1002→  1076→---
+  1003→  1077→
+  1004→  1078→# 19. HEADER
+  1005→  1079→
+  1006→  1080→Match mockup.
+  1007→  1081→
+  1008→  1082→Left:
+  1009→  1083→
+  1010→  1084→ATLAS logo.
+  1011→  1085→
+  1012→  1086→Navigation:
+  1013→  1087→
+  1014→  1088→Products
+  1015→  1089→
+  1016→  1090→Solutions
+  1017→  1091→
+  1018→  1092→Developers
+  1019→  1093→
+  1020→  1094→Resources
+  1021→  1095→
+  1022→  1096→Company
+  1023→  1097→
+  1024→  1098→Search
+  1025→  1099→
+  1026→  1100→Language/Country
+  1027→  1101→
+  1028→  1102→Sign In — hide/disable if auth not implemented.
+  1029→  1103→
+  1030→  1104→Primary CTA:
+  1031→  1105→
+  1032→  1106→# Get Started
+  1033→  1107→
+  1034→  1108→---
+  1035→  1109→
+  1036→  1110→# 20. HERO
+  1037→  1111→
+  1038→  1112→Match mockup.
+  1039→  1113→
+  1040→  1114→Eyebrow:
+  1041→  1115→
+  1042→  1116→# SOFTWARE • AI • AUTOMATION
+  1043→  1117→
+  1044→  1118→Headline:
+  1045→  1119→
+  1046→  1120→# Build smarter.
+  1047→  1121→
+  1048→  1122→# Operate faster.
+  1049→  1123→
+  1050→  1124→Make:
+  1051→  1125→
+  1052→  1126→**faster.**
+  1053→  1127→
+  1054→  1128→electric blue.
+  1055→  1129→
+  1056→  1130→Supporting text:
+  1057→  1131→
+  1058→  1132→> Atlas Digital Systems builds software, AI tools and automation products designed for modern businesses.
+  1059→  1133→
+  1060→  1134→CTA:
+  1061→  1135→
+  1062→  1136→**Explore Products**
+  1063→  1137→
+  1064→  1138→Secondary:
+  1065→  1139→
+  1066→  1140→**For Business**
+  1067→  1141→
+  1068→  1142→Optional:
+  1069→  1143→
+  1070→  1144→**See How Atlas Works**
+  1071→  1145→
+  1072→  1146→Do not include a fake “2 min video” unless a real video exists.
+  1073→  1147→
+  1074→  1148→---
+  1075→  1149→
+  1076→  1150→# 21. HERO VISUAL
+  1077→  1151→
+  1078→  1152→Preserve attached globe/orbital concept.
+  1079→  1153→
+  1080→  1154→Create an original animated digital globe or abstract network visual.
+  1081→  1155→
+  1082→  1156→It should represent:
+  1083→  1157→
+  1084→  1158→global software
+  1085→  1159→technology
+  1086→  1160→data
+  1087→  1161→automation.
+  1088→  1162→
+  1089→  1163→Do not claim geographical office locations.
+  1090→  1164→
+  1091→  1165→Respect:
+  1092→  1166→
+  1093→  1167→`prefers-reduced-motion`.
+  1094→  1168→
+  1095→  1169→---
+  1096→  1170→
+  1097→  1171→# 22. HERO RIGHT-SIDE COPY
+  1098→  1172→
+  1099→  1173→Instead of fictional statistics use:
+  1100→  1174→
+  1101→  1175→# Technology built for real business.
+  1102→  1176→
+  1103→  1177→Then truthful highlights:
+  1104→  1178→
+  1105→  1179→**Software Products**
+  1106→  1180→
+  1107→  1181→SaaS and business tools.
+  1108→  1182→
+  1109→  1183→**AI & Automation**
+  1110→  1184→
+  1111→  1185→Practical intelligent systems.
+  1112→  1186→
+  1113→  1187→**International Ready**
+  1114→  1188→
+  1115→  1189→Built for global digital delivery.
+  1116→  1190→
+  1117→  1191→Callout:
+  1118→  1192→
+  1119→  1193→**Innovate. Automate. Grow.**
+  1120→  1194→
+  1121→  1195→Technology designed around practical business outcomes.
+  1122→  1196→
+  1123→  1197→---
+  1124→  1198→
+  1125→  1199→# 23. SIX PRODUCT-LINE CARDS
+  1126→  1200→
+  1127→  1201→Reproduce exact visual rhythm.
+  1128→  1202→
+  1129→  1203→### Atlas AI
+  1130→  1204→
+  1131→  1205→AI tools for practical business work.
+  1132→  1206→
+  1133→  1207→### Atlas Software
+  1134→  1208→
+  1135→  1209→SaaS and business applications.
+  1136→  1210→
+  1137→  1211→### Atlas Automate
+  1138→  1212→
+  1139→  1213→Connect tasks, AI and business processes.
+  1140→  1214→
+  1141→  1215→### Atlas Data
+  1142→  1216→
+  1143→  1217→Turn information into actionable insights.
+  1144→  1218→
+  1145→  1219→### Atlas Cloud
+  1146→  1220→
+  1147→  1221→Technology designed for deployment and scale.
+  1148→  1222→
+  1149→  1223→### Atlas Labs
+  1150→  1224→
+  1151→  1225→New products. Real possibilities.
+  1152→  1226→
+  1153→  1227→Each has:
+  1154→  1228→
+  1155→  1229→icon
+  1156→  1230→description
+  1157→  1231→Explore CTA.
+  1158→  1232→
+  1159→  1233→---
+  1160→  1234→
+  1161→  1235→# 24. FEATURED PRODUCTS
+  1162→  1236→
+  1163→  1237→Match mockup.
+  1164→  1238→
+  1165→  1239→Headline:
+  1166→  1240→
+  1167→  1241→# Tools to move your business forward.
+  1168→  1242→
+  1169→  1243→Cards:
+  1170→  1244→
+  1171→  1245→Atlas AI Workspace
+  1172→  1246→Atlas Automate
+  1173→  1247→Atlas Data Workspace
+  1174→  1248→Business Automation Pack
+  1175→  1249→Startup Launch System
+  1176→  1250→AI Business Setup
+  1177→  1251→
+  1178→  1252→Show appropriate labels:
+  1179→  1253→
+  1180→  1254→SaaS
+  1181→  1255→Digital Product
+  1182→  1256→Service.
+  1183→  1257→
+  1184→  1258→Buttons:
+  1185→  1259→
+  1186→  1260→Learn More
+  1187→  1261→
+  1188→  1262→Add to Cart
+  1189→  1263→
+  1190→  1264→Get Started
+  1191→  1265→
+  1192→  1266→Request Proposal.
+  1193→  1267→
+  1194→  1268→---
+  1195→  1269→
+  1196→  1270→# 25. PRODUCT PAGE
+  1197→  1271→
+  1198→  1272→Create:
+  1199→  1273→
+  1200→  1274→`/products/[slug]`
+  1201→  1275→
+  1202→  1276→Every product needs:
+  1203→  1277→
+  1204→  1278→hero
+  1205→  1279→product type
+  1206→  1280→status
+  1207→  1281→pricing
+  1208→  1282→currency
+  1209→  1283→description
+  1210→  1284→features
+  1211→  1285→what is included
+  1212→  1286→delivery model
+  1213→  1287→billing model
+  1214→  1288→licence
+  1215→  1289→support
+  1216→  1290→seller
+  1217→  1291→refund summary
+  1218→  1292→FAQs
+  1219→  1293→related products
+  1220→  1294→Stripe CTA.
+  1221→  1295→
+  1222→  1296→Seller:
+  1223→  1297→
+  1224→  1298→# ATLAS DIGITAL SYSTEMS, LLC
+  1225→  1299→
+  1226→  1300→---
+  1227→  1301→
+  1228→  1302→# 26. PRODUCT CATALOGUE
+  1229→  1303→
+  1230→  1304→Create:
+  1231→  1305→
+  1232→  1306→`/products`
+  1233→  1307→
+  1234→  1308→Filters:
+  1235→  1309→
+  1236→  1310→All
+  1237→  1311→
+  1238→  1312→AI
+  1239→  1313→
+  1240→  1314→Software
+  1241→  1315→
+  1242→  1316→Automation
+  1243→  1317→
+  1244→  1318→Data
+  1245→  1319→
+  1246→  1320→Digital Products
+  1247→  1321→
+  1248→  1322→Services
+  1249→  1323→
+  1250→  1324→Bundles
+  1251→  1325→
+  1252→  1326→SaaS
+  1253→  1327→
+  1254→  1328→Sort:
+  1255→  1329→
+  1256→  1330→Featured
+  1257→  1331→Newest
+  1258→  1332→Price Low-High
+  1259→  1333→Price High-Low
+  1260→  1334→Alphabetical.
+  1261→  1335→
+  1262→  1336→No fake:
+  1263→  1337→
+  1264→  1338→Best Selling
+  1265→  1339→Highest Rated.
+  1266→  1340→
+  1267→  1341→---
+  1268→  1342→
+  1269→  1343→# 27. BUSINESS SECTION
+  1270→  1344→
+  1271→  1345→Reproduce mockup's large business panel.
+  1272→  1346→
+  1273→  1347→Headline:
+  1274→  1348→
+  1275→  1349→# Technology that works around you.
+  1276→  1350→
+  1277→  1351→Copy:
+  1278→  1352→
+  1279→  1353→> Whether you're a startup, growing company or established team, Atlas provides software, automation and technical expertise designed around practical business needs.
+  1280→  1354→
+  1281→  1355→CTA:
+  1282→  1356→
+  1283→  1357→**Talk to an Expert**
+  1284→  1358→
+  1285→  1359→Cards:
+  1286→  1360→
+  1287→  1361→Start a Business
+  1288→  1362→
+  1289→  1363→Improve Sales
+  1290→  1364→
+  1291→  1365→Automate Operations
+  1292→  1366→
+  1293→  1367→Analyse Data
+  1294→  1368→
+  1295→  1369→Build Marketing
+  1296→  1370→
+  1297→  1371→Build Software.
+  1298→  1372→
+  1299→  1373→---
+  1300→  1374→
+  1301→  1375→# 28. SOLUTIONS
+  1302→  1376→
+  1303→  1377→Create:
+  1304→  1378→
+  1305→  1379→`/solutions`
+  1306→  1380→
+  1307→  1381→and:
+  1308→  1382→
+  1309→  1383→```text
+  1310→  1384→/solutions/business
+  1311→  1385→/solutions/startups
+  1312→  1386→/solutions/marketing
+  1313→  1387→/solutions/sales
+  1314→  1388→/solutions/operations
+  1315→  1389→/solutions/data
+  1316→  1390→/solutions/software
+  1317→  1391→/solutions/teams
+  1318→  1392→```
+  1319→  1393→
+  1320→  1394→Every solution should connect relevant:
+  1321→  1395→
+  1322→  1396→products
+  1323→  1397→services
+  1324→  1398→digital products.
+  1325→  1399→
+  1326→  1400→---
+  1327→  1401→
+  1328→  1402→# 29. DEVELOPERS
+  1329→  1403→
+  1330→  1404→Create:
+  1331→  1405→
+  1332→  1406→`/developers`
+  1333→  1407→
+  1334→  1408→Design polished developer portal teaser.
+  1335→  1409→
+  1336→  1410→Sections:
+  1337→  1411→
+  1338→  1412→Atlas API
+  1339→  1413→
+  1340→  1414→Authentication
+  1341→  1415→
+  1342→  1416→SDKs
+  1343→  1417→
+  1344→  1418→Webhooks
+  1345→  1419→
+  1346→  1420→Documentation
+  1347→  1421→
+  1348→  1422→Status
+  1349→  1423→
+  1350→  1424→However:
+  1351→  1425→
+  1352→  1426→if API is not live:
+  1353→  1427→
+  1354→  1428→label:
+  1355→  1429→
+  1356→  1430→# Early Access
+  1357→  1431→
+  1358→  1432→Do not publish fake API endpoints as available services.
+  1359→  1433→
+  1360→  1434→Can show conceptual examples clearly marked:
+  1361→  1435→
+  1362→  1436→**Example / Preview**
+  1363→  1437→
+  1364→  1438→---
+  1365→  1439→
+  1366→  1440→# 30. SERVICES
+  1367→  1441→
+  1368→  1442→Create:
+  1369→  1443→
+  1370→  1444→`/services`
+  1371→  1445→
+  1372→  1446→and:
+  1373→  1447→
+  1374→  1448→`/services/[slug]`
+  1375→  1449→
+  1376→  1450→Services:
+  1377→  1451→
+  1378→  1452→Software Development
+  1379→  1453→
+  1380→  1454→AI Implementation
+  1381→  1455→
+  1382→  1456→Automation
+  1383→  1457→
+  1384→  1458→Technology Consulting
+  1385→  1459→
+  1386→  1460→Data Solutions
+  1387→  1461→
+  1388→  1462→Technical Architecture
+  1389→  1463→
+  1390→  1464→Service pages must explain:
+  1391→  1465→
+  1392→  1466→scope
+  1393→  1467→starting price where applicable
+  1394→  1468→delivery
+  1395→  1469→process
+  1396→  1470→CTA.
+  1397→  1471→
+  1398→  1472→---
+  1399→  1473→
+  1400→  1474→# 31. HOW IT WORKS
+  1401→  1475→
+  1402→  1476→Create:
+  1403→  1477→
+  1404→  1478→`/how-it-works`
+  1405→  1479→
+  1406→  1480→Explain two purchase journeys.
+  1407→  1481→
+  1408→  1482→## SOFTWARE
+  1409→  1483→
+  1410→  1484→Choose plan
+  1411→  1485→Create account
+  1412→  1486→Complete payment
+  1413→  1487→Receive digital access
+  1414→  1488→Use software.
+  1415→  1489→
+  1416→  1490→## DIGITAL PRODUCT
+  1417→  1491→
+  1418→  1492→Choose product
+  1419→  1493→Review licence
+  1420→  1494→Checkout
+  1421→  1495→Payment confirmed
+  1422→  1496→Receive digital access/download.
+  1423→  1497→
+  1424→  1498→## PROFESSIONAL SERVICE
+  1425→  1499→
+  1426→  1500→Select service
+  1427→  1501→Submit requirements
+  1428→  1502→Scope review
+  1429→  1503→Proposal/agreement
+  1430→  1504→Delivery.
+  1431→  1505→
+  1432→  1506→---
+  1433→  1507→
+  1434→  1508→# 32. STRIPE — PRIMARY PAYMENT PROVIDER
+  1435→  1509→
+  1436→  1510→Prepare real Stripe integration.
+  1437→  1511→
+  1438→  1512→Primary future provider:
+  1439→  1513→
+  1440→  1514→# Stripe US
+  1441→  1515→
+  1442→  1516→Merchant:
+  1443→  1517→
+  1444→  1518→# ATLAS DIGITAL SYSTEMS, LLC
+  1445→  1519→
+  1446→  1520→Use the official Stripe SDK.
+  1447→  1521→
+  1448→  1522→Use server-side operations for all secret-key activities.
+  1449→  1523→
+  1450→  1524→Never expose:
+  1451→  1525→
+  1452→  1526→`STRIPE_SECRET_KEY`
+  1453→  1527→
+  1454→  1528→in client code.
+  1455→  1529→
+  1456→  1530→---
+  1457→  1531→
+  1458→  1532→# 33. STRIPE CHECKOUT ARCHITECTURE
+  1459→  1533→
+  1460→  1534→Use:
+  1461→  1535→
+  1462→  1536→# Stripe Checkout Sessions
+  1463→  1537→
+  1464→  1538→as the initial preferred checkout architecture.
+  1465→  1539→
+  1466→  1540→Support BOTH:
+  1467→  1541→
+  1468→  1542→### One-time payments
+  1469→  1543→
+  1470→  1544→Digital products.
+  1471→  1545→
+  1472→  1546→### Recurring subscriptions
+  1473→  1547→
+  1474→  1548→SaaS plans.
+  1475→  1549→
+  1476→  1550→Create server endpoint such as:
+  1477→  1551→
+  1478→  1552→```text
+  1479→  1553→POST /api/stripe/create-checkout-session
+  1480→  1554→```
+  1481→  1555→
+  1482→  1556→Never trust price or amount supplied directly by the browser.
+  1483→  1557→
+  1484→  1558→Frontend submits:
+  1485→  1559→
+  1486→  1560→product ID
+  1487→  1561→price selection
+  1488→  1562→currency
+  1489→  1563→
+  1490→  1564→Server resolves:
+  1491→  1565→
+  1492→  1566→Stripe Price ID
+  1493→  1567→
+  1494→  1568→from trusted configuration.
+  1495→  1569→
+  1496→  1570→---
+  1497→  1571→
+  1498→  1572→# 34. STRIPE PRODUCT MAPPING
+  1499→  1573→
+  1500→  1574→Create:
+  1501→  1575→
+  1502→  1576→```text
+  1503→  1577→src/config/stripe-products.ts
+  1504→  1578→```
+  1505→  1579→
+  1506→  1580→Example:
+  1507→  1581→
+  1508→  1582→```ts
+  1509→  1583→{
+  1510→  1584→  productId: "atlas-business-automation-pack",
+  1511→  1585→  stripePrices: {
+  1512→  1586→    USD: process.env.STRIPE_PRICE_AUTOMATION_USD,
+  1513→  1587→    EUR: process.env.STRIPE_PRICE_AUTOMATION_EUR
+  1514→  1588→  }
+  1515→  1589→}
+  1516→  1590→```
+  1517→  1591→
+  1518→  1592→Never hardcode secret information.
+  1519→  1593→
+  1520→  1594→---
+  1521→  1595→
+  1522→  1596→# 35. STRIPE CHECKOUT — ONE-TIME
+  1523→  1597→
+  1524→  1598→Flow:
+  1525→  1599→
+  1526→  1600→Product page
+  1527→  1601→
+  1528→  1602→→ Add to cart / Buy now
+  1529→  1603→
+  1530→  1604→→ Server creates Checkout Session
+  1531→  1605→
+  1532→  1606→→ Stripe Checkout
+  1533→  1607→
+  1534→  1608→→ User pays
+  1535→  1609→
+  1536→  1610→→ Stripe redirects to:
+  1537→  1611→
+  1538→  1612→`/checkout/success?session_id={CHECKOUT_SESSION_ID}`
+  1539→  1613→
+  1540→  1614→or:
+  1541→  1615→
+  1542→  1616→`/checkout/cancelled`
+  1543→  1617→
+  1544→  1618→IMPORTANT:
+  1545→  1619→
+  1546→  1620→Do NOT fulfil digital products merely because the user visits the success URL.
+  1547→  1621→
+  1548→  1622→Fulfilment must depend on:
+  1549→  1623→
+  1550→  1624→# Stripe webhook confirmation.
+  1551→  1625→
+  1552→  1626→---
+  1553→  1627→
+  1554→  1628→# 36. STRIPE CHECKOUT — SUBSCRIPTIONS
+  1555→  1629→
+  1556→  1630→For SaaS:
+  1557→  1631→
+  1558→  1632→Create session with:
+  1559→  1633→
+  1560→  1634→`mode: "subscription"`
+  1561→  1635→
+  1562→  1636→Use Stripe recurring Price IDs.
+  1563→  1637→
+  1564→  1638→Support:
+  1565→  1639→
+  1566→  1640→monthly
+  1567→  1641→
+  1568→  1642→and future annual plans.
+  1569→  1643→
+  1570→  1644→After successful subscription:
+  1571→  1645→
+  1572→  1646→create future entitlement/account activation architecture.
+  1573→  1647→
+  1574→  1648→Do not falsely create real account access if authentication backend does not yet exist.
+  1575→  1649→
+  1576→  1650→---
+  1577→  1651→
+  1578→  1652→# 37. STRIPE WEBHOOKS
+  1579→  1653→
+  1580→  1654→Create:
+  1581→  1655→
+  1582→  1656→```text
+  1583→  1657→POST /api/stripe/webhook
+  1584→  1658→```
+  1585→  1659→
+  1586→  1660→Handle at minimum:
+  1587→  1661→
+  1588→  1662→`checkout.session.completed`
+  1589→  1663→
+  1590→  1664→`checkout.session.async_payment_succeeded`
+  1591→  1665→
+  1592→  1666→`checkout.session.async_payment_failed`
+  1593→  1667→
+  1594→  1668→`customer.subscription.created`
+  1595→  1669→
+  1596→  1670→`customer.subscription.updated`
+  1597→  1671→
+  1598→  1672→`customer.subscription.deleted`
+  1599→  1673→
+  1600→  1674→`invoice.paid`
+  1601→  1675→
+  1602→  1676→`invoice.payment_failed`
+  1603→  1677→
+  1604→  1678→Do not silently ignore errors.
+  1605→  1679→
+  1606→  1680→Webhook verification must use:
+  1607→  1681→
+  1608→  1682→`STRIPE_WEBHOOK_SECRET`
+  1609→  1683→
+  1610→  1684→and Stripe signature validation.
+  1611→  1685→
+  1612→  1686→Document idempotency strategy for future database implementation.
+  1613→  1687→
+  1614→  1688→---
+  1615→  1689→
+  1616→  1690→# 38. DIGITAL PRODUCT FULFILMENT
+  1617→  1691→
+  1618→  1692→Future correct flow:
+  1619→  1693→
+  1620→  1694→```text
+  1621→  1695→STRIPE
+  1622→  1696→   ↓
+  1623→  1697→WEBHOOK
+  1624→  1698→   ↓
+  1625→  1699→PAYMENT CONFIRMED
+  1626→  1700→   ↓
+  1627→  1701→ORDER
+  1628→  1702→   ↓
+  1629→  1703→ENTITLEMENT
+  1630→  1704→   ↓
+  1631→  1705→SECURE DOWNLOAD
+  1632→  1706→   ↓
+  1633→  1707→EMAIL
+  1634→  1708→```
+  1635→  1709→
+  1636→  1710→Do not host paid digital assets as public permanent URLs.
+  1637→  1711→
+  1638→  1712→Future downloads should use:
+  1639→  1713→
+  1640→  1714→private storage
+  1641→  1715→signed URLs
+  1642→  1716→expiring access.
+  1643→  1717→
+  1644→  1718→V1 may be mock if no backend/database is present.
+  1645→  1719→
+  1646→  1720→---
+  1647→  1721→
+  1648→  1722→# 39. STRIPE CUSTOMER PORTAL
+  1649→  1723→
+  1650→  1724→Prepare architecture for:
+  1651→  1725→
+  1652→  1726→# Stripe Billing Customer Portal
+  1653→  1727→
+  1654→  1728→Use for SaaS users to:
+  1655→  1729→
+  1656→  1730→manage subscription
+  1657→  1731→update payment method
+  1658→  1732→view invoices
+  1659→  1733→cancel subscription
+  1660→  1734→change plan where configured.
+  1661→  1735→
+  1662→  1736→Create future endpoint:
+  1663→  1737→
+  1664→  1738→```text
+  1665→  1739→POST /api/stripe/create-portal-session
+  1666→  1740→```
+  1667→  1741→
+  1668→  1742→Do not expose portal functionality unless actual Stripe Customer IDs exist.
+  1669→  1743→
+  1670→  1744→---
+  1671→  1745→
+  1672→  1746→# 40. STRIPE PAYMENT METHODS
+  1673→  1747→
+  1674→  1748→Configure site architecture to support:
+  1675→  1749→
+  1676→  1750→Cards
+  1677→  1751→
+  1678→  1752→Apple Pay
+  1679→  1753→
+  1680→  1754→Google Pay
+  1681→  1755→
+  1682→  1756→Link
+  1683→  1757→
+  1684→  1758→and any additional methods actually enabled by Stripe for the account, currency and customer region.
+  1685→  1759→
+  1686→  1760→Do not hardcode unsupported payment methods.
+  1687→  1761→
+  1688→  1762→Do not promise that a method is available until enabled.
+  1689→  1763→
+  1690→  1764→---
+  1691→  1765→
+  1692→  1766→# 41. OFFICIAL PAYMENT LOGOS
+  1693→  1767→
+  1694→  1768→Use only official brand assets.
+  1695→  1769→
+  1696→  1770→Potential:
+  1697→  1771→
+  1698→  1772→Visa
+  1699→  1773→Mastercard
+  1700→  1774→American Express
+  1701→  1775→Apple Pay
+  1702→  1776→Google Pay
+  1703→  1777→Link.
+  1704→  1778→
+  1705→  1779→Never generate these logos using AI.
+  1706→  1780→
+  1707→  1781→If official files are unavailable:
+  1708→  1782→
+  1709→  1783→create slots under:
+  1710→  1784→
+  1711→  1785→```text
+  1712→  1786→/public/payments/
+  1713→  1787→```
+  1714→  1788→
+  1715→  1789→and document replacement.
+  1716→  1790→
+  1717→  1791→---
+  1718→  1792→
+  1719→  1793→# 42. CHECKOUT PAGE
+  1720→  1794→
+  1721→  1795→Create:
+  1722→  1796→
+  1723→  1797→`/checkout`
+  1724→  1798→
+  1725→  1799→Before Stripe redirection show:
+  1726→  1800→
+  1727→  1801→Order summary
+  1728→  1802→
+  1729→  1803→Product
+  1730→  1804→
+  1731→  1805→Product type
+  1732→  1806→
+  1733→  1807→Billing frequency
+  1734→  1808→
+  1735→  1809→Licence
+  1736→  1810→
+  1737→  1811→Price
+  1738→  1812→
+  1739→  1813→Currency
+  1740→  1814→
+  1741→  1815→Digital delivery
+  1742→  1816→
+  1743→  1817→Seller
+  1744→  1818→
+  1745→  1819→Refund Policy
+  1746→  1820→
+  1747→  1821→Terms
+  1748→  1822→
+  1749→  1823→Privacy.
+  1750→  1824→
+  1751→  1825→Seller disclosure:
+  1752→  1826→
+  1753→  1827→# ATLAS DIGITAL SYSTEMS, LLC
+  1754→  1828→
+  1755→  1829→Delaware, United States
+  1756→  1830→
+  1757→  1831→Do not collect raw card numbers directly.
+  1758→  1832→
+  1759→  1833→Stripe handles payment details.
+  1760→  1834→
+  1761→  1835→---
+  1762→  1836→
+  1763→  1837→# 43. CHECKOUT SUCCESS
+  1764→  1838→
+  1765→  1839→Route:
+  1766→  1840→
+  1767→  1841→`/checkout/success`
+  1768→  1842→
+  1769→  1843→If session ID exists:
+  1770→  1844→
+  1771→  1845→server-side retrieve safe checkout information when Stripe live mode is configured.
+  1772→  1846→
+  1773→  1847→Display:
+  1774→  1848→
+  1775→  1849→Payment received / processing status
+  1776→  1850→
+  1777→  1851→Order summary
+  1778→  1852→
+  1779→  1853→Customer email
+  1780→  1854→
+  1781→  1855→Next step.
+  1782→  1856→
+  1783→  1857→Do not expose:
+  1784→  1858→
+  1785→  1859→full payment data
+  1786→  1860→secret IDs.
+  1787→  1861→
+  1788→  1862→For SaaS:
+  1789→  1863→
+  1790→  1864→> Your subscription has been created. Account access instructions will be provided according to the product delivery process.
+  1791→  1865→
+  1792→  1866→For downloads:
+  1793→  1867→
+  1794→  1868→> Your payment has been confirmed. Digital delivery information will be sent or displayed according to the configured delivery process.
+  1795→  1869→
+  1796→  1870→---
+  1797→  1871→
+  1798→  1872→# 44. STRIPE CHECKOUT CANCELLED
+  1799→  1873→
+  1800→  1874→Route:
+  1801→  1875→
+  1802→  1876→`/checkout/cancelled`
+  1803→  1877→
+  1804→  1878→Friendly state.
+  1805→  1879→
+  1806→  1880→Copy:
+  1807→  1881→
+  1808→  1882→> Your payment was not completed. No order has been fulfilled.
+  1809→  1883→
+  1810→  1884→Buttons:
+  1811→  1885→
+  1812→  1886→Return to Product
+  1813→  1887→Return to Cart.
+  1814→  1888→
+  1815→  1889→---
+  1816→  1890→
+  1817→  1891→# 45. TAX ARCHITECTURE
+  1818→  1892→
+  1819→  1893→Prepare Stripe Tax compatibility but do not automatically enable it without configuration.
+  1820→  1894→
+  1821→  1895→Environment:
+  1822→  1896→
+  1823→  1897→```text
+  1824→  1898→STRIPE_TAX_ENABLED=false
+  1825→  1899→```
+  1826→  1900→
+  1827→  1901→When enabled, architecture may use automatic tax calculations.
+  1828→  1902→
+  1829→  1903→Do not make claims about US sales-tax obligations.
+  1830→  1904→
+  1831→  1905→Add tax language:
+  1832→  1906→
+  1833→  1907→> Applicable taxes may be calculated during checkout depending on product, customer location and applicable rules.
+  1834→  1908→
+  1835→  1909→---
+  1836→  1910→
+  1837→  1911→# 46. RECEIPTS
+  1838→  1912→
+  1839→  1913→Use Stripe's supported email receipt/invoice capabilities where configured.
+  1840→  1914→
+  1841→  1915→Company support remains:
+  1842→  1916→
+  1843→  1917→[billing@atlasdigitalsystems.co](mailto:billing@atlasdigitalsystems.co)
+  1844→  1918→
+  1845→  1919→---
+  1846→  1920→
+  1847→  1921→# 47. PAYMENT SECURITY COPY
+  1848→  1922→
+  1849→  1923→Use accurate wording:
+  1850→  1924→
+  1851→  1925→**Secure payment processing**
+  1852→  1926→
+  1853→  1927→or:
+  1854→  1928→
+  1855→  1929→> Payments are processed through our configured payment provider. ATLAS does not need to directly store complete card details when Stripe Checkout is used.
+  1856→  1930→
+  1857→  1931→Never write:
+  1858→  1932→
+  1859→  1933→“100% secure”
+  1860→  1934→
+  1861→  1935→or:
+  1862→  1936→
+  1863→  1937→“zero risk”.
+  1864→  1938→
+  1865→  1939→---
+  1866→  1940→
+  1867→  1941→# 48. PAYMENT METHODS PAGE
+  1868→  1942→
+  1869→  1943→Create:
+  1870→  1944→
+  1871→  1945→`/payment-methods`
+  1872→  1946→
+  1873→  1947→Explain:
+  1874→  1948→
+  1875→  1949→Payment provider
+  1876→  1950→Available cards
+  1877→  1951→Digital checkout
+  1878→  1952→Currencies
+  1879→  1953→Subscriptions
+  1880→  1954→Payment confirmation
+  1881→  1955→Failed payments
+  1882→  1956→Refund processing
+  1883→  1957→Billing support.
+  1884→  1958→
+  1885→  1959→Contact:
+  1886→  1960→
+  1887→  1961→[billing@atlasdigitalsystems.co](mailto:billing@atlasdigitalsystems.co)
+  1888→  1962→
+  1889→  1963→Phone:
+  1890→  1964→
+  1891→  1965→+1 302-595-5455
+  1892→  1966→
+  1893→  1967→---
+  1894→  1968→
+  1895→  1969→# 49. PRICING
+  1896→  1970→
+  1897→  1971→Create:
+  1898→  1972→
+  1899→  1973→`/pricing`
+  1900→  1974→
+  1901→  1975→SaaS:
+  1902→  1976→
+  1903→  1977→## Atlas AI
+  1904→  1978→
+  1905→  1979→Free
+  1906→  1980→$0
+  1907→  1981→
+  1908→  1982→Pro
+  1909→  1983→$29/mo
+  1910→  1984→
+  1911→  1985→Business
+  1912→  1986→$79/mo
+  1913→  1987→
+  1914→  1988→---
+  1915→  1989→
+  1916→  1990→## Atlas Automate
+  1917→  1991→
+  1918→  1992→From $39/mo
+  1919→  1993→
+  1920→  1994→---
+  1921→  1995→
+  1922→  1996→## Atlas Data
+  1923→  1997→
+  1924→  1998→From $29/mo
+  1925→  1999→
+  1926→  2000→---
+  1927→  2001→
+  1928→  2002→Potential bundle:
+  1929→  2003→
+  1930→  2004→# Atlas One
+  1931→  2005→
+  1932→  2006→Future / Preview:
+  1933→  2007→
+  1934→  2008→$99/month
+  1935→  2009→
+  1936→  2010→Do not make unavailable packages purchasable.
+  1937→  2011→
+  1938→  2012→---
+  1939→  2013→
+  1940→  2014→# 50. FOR BUSINESS
+  1941→  2015→
+  1942→  2016→Create:
+  1943→  2017→
+  1944→  2018→`/business`
+  1945→  2019→
+  1946→  2020→Headline:
+  1947→  2021→
+  1948→  2022→# Technology built around your operation.
+  1949→  2023→
+  1950→  2024→Include:
+  1951→  2025→
+  1952→  2026→Technology Assessment
+  1953→  2027→AI Business Setup
+  1954→  2028→Automation Starter
+  1955→  2029→Custom Software Sprint.
+  1956→  2030→
+  1957→  2031→CTA:
+  1958→  2032→
+  1959→  2033→Talk to Sales
+  1960→  2034→
+  1961→  2035→Email:
+  1962→  2036→
+  1963→  2037→[sales@atlasdigitalsystems.co](mailto:sales@atlasdigitalsystems.co)
+  1964→  2038→
+  1965→  2039→Phone:
+  1966→  2040→
+  1967→  2041→+1 302-595-5455
+  1968→  2042→
+  1969→  2043→---
+  1970→  2044→
+  1971→  2045→# 51. COMPANY PAGE
+  1972→  2046→
+  1973→  2047→Create:
+  1974→  2048→
+  1975→  2049→`/about`
+  1976→  2050→
+  1977→  2051→Sections:
+  1978→  2052→
+  1979→  2053→Who We Are
+  1980→  2054→
+  1981→  2055→What We Build
+  1982→  2056→
+  1983→  2057→Software
+  1984→  2058→
+  1985→  2059→AI
+  1986→  2060→
+  1987→  2061→Automation
+  1988→  2062→
+  1989→  2063→Data
+  1990→  2064→
+  1991→  2065→Our Approach
+  1992→  2066→
+  1993→  2067→Technology for Practical Work
+  1994→  2068→
+  1995→  2069→Atlas Labs
+  1996→  2070→
+  1997→  2071→Responsible AI
+  1998→  2072→
+  1999→  2073→Security
+  2000→  2074→
+
+[showing lines 1-2000 of 2002; use offset=2001 with limit to continue reading]
