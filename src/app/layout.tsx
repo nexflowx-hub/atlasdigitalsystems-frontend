@@ -8,6 +8,7 @@ import { CurrencyProvider } from "@/lib/currency-context";
 import { SiteHeader } from "@/components/site/site-header";
 import { SiteFooter } from "@/components/site/site-footer";
 import { CartSheet } from "@/components/site/cart-sheet";
+import { WebChatWidget } from "@/components/site/webchat-widget";
 import { company } from "@/config/company";
 
 const inter = Inter({
@@ -109,6 +110,7 @@ export default function RootLayout({
               <main className="flex-1">{children}</main>
               <SiteFooter />
               <CartSheet />
+              <WebChatWidget />
             </div>
             <Toaster />
             <SonnerToaster />

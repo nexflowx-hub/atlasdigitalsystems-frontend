@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Rocket, TrendingUp, Settings2, Database, Megaphone, Code2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "@/lib/i18n/context";
@@ -22,14 +23,25 @@ export function BusinessSection() {
       <div className="pointer-events-none absolute -left-20 top-1/2 h-[500px] w-[500px] -translate-y-1/2 rounded-full bg-atlas-blue/8 blur-[120px]" />
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
-          {/* Left: visual panel */}
+        <div className="grid gap-10 lg:grid-cols-2 lg:items-stretch">
+          {/* Left: visual panel with office photo */}
           <div className="relative">
-            <div className="card-atlas relative overflow-hidden rounded-2xl p-8 lg:p-10">
-              <div className="absolute inset-0 bg-grid opacity-40" />
+            <div className="card-atlas relative h-full min-h-[360px] overflow-hidden rounded-2xl">
+              <Image
+                src="/images/business-office.png"
+                alt="Modern dark technology office conference room"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover"
+                priority={false}
+              />
+              {/* Dark gradient overlays for legibility + brand blend */}
+              <div className="absolute inset-0 bg-gradient-to-t from-atlas-void via-atlas-void/50 to-atlas-void/20" />
+              <div className="absolute inset-0 bg-gradient-to-r from-atlas-void/60 to-transparent" />
               <div className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-atlas-blue/20 blur-3xl" />
-              <div className="relative">
-                <div className="inline-flex items-center gap-2 rounded-full border border-atlas-blue/30 bg-atlas-blue/5 px-3 py-1">
+
+              <div className="relative flex h-full flex-col justify-end p-8 lg:p-10">
+                <div className="inline-flex w-fit items-center gap-2 rounded-full border border-atlas-blue/30 bg-atlas-blue/10 px-3 py-1 backdrop-blur-sm">
                   <span className="text-xs font-semibold uppercase tracking-[0.18em] text-atlas-cyan">
                     {t("business.eyebrow")}
                   </span>
@@ -37,10 +49,10 @@ export function BusinessSection() {
                 <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
                   {t("business.title")}
                 </h2>
-                <p className="mt-4 max-w-md text-base leading-relaxed text-atlas-muted">
+                <p className="mt-4 max-w-md text-base leading-relaxed text-atlas-white/80">
                   {t("business.body")}
                 </p>
-                <Button asChild size="lg" className="mt-7 bg-white text-atlas-void hover:bg-atlas-white">
+                <Button asChild size="lg" className="mt-7 w-fit bg-white text-atlas-void hover:bg-atlas-white">
                   <Link href="/business">
                     {t("business.cta")}
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -51,7 +63,7 @@ export function BusinessSection() {
           </div>
 
           {/* Right: use case cards */}
-          <div>
+          <div className="flex flex-col justify-center">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-atlas-cyan">
               {t("usecases.eyebrow")}
             </p>

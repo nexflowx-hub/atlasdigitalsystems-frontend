@@ -61,3 +61,5 @@ worklog.md
 # Build artifacts
 tool-results/
 upload/
+preview-*.png
+mockup-detail.json

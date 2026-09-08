@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Sparkles } from "lucide-react";
 import type { Product } from "@/types/product";
 import { categoryLabels, statusLabels } from "@/types/product";
@@ -35,31 +36,48 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
       className="card-atlas group relative flex flex-col overflow-hidden rounded-xl"
       style={{ animationDelay: `${index * 60}ms` }}
     >
-      {/* Visual top */}
-      <div className="relative h-36 overflow-hidden border-b border-atlas-border bg-gradient-to-br from-atlas-deep to-atlas-void">
-        <div className="absolute inset-0 bg-grid-fine opacity-40" />
-        <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-atlas-blue/20 blur-2xl" />
-        <div className="absolute left-4 top-4">
+      {/* Visual top — hyperrealistic image */}
+      <div className="relative h-44 overflow-hidden border-b border-atlas-border">
+        {product.image ? (
+          <Image
+            src={product.image}
+            alt={`${product.name} — ${product.tagline}`}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <div className="absolute inset-0 bg-gradient-to-br from-atlas-deep to-atlas-void">
+            <div className="absolute inset-0 bg-grid-fine opacity-40" />
+          </div>
+        )}
+        {/* Dark gradient overlay for text legibility */}
+        <div className="absolute inset-0 bg-gradient-to-t from-atlas-void via-atlas-void/30 to-transparent" />
+
+        {/* Badge — top left */}
+        <div className="absolute left-3 top-3">
           <Badge
             variant="outline"
             className={cn(
-              "border-atlas-blue/40 bg-atlas-blue/10 text-atlas-cyan",
-              product.badge === "Service" && "border-emerald-500/40 bg-emerald-500/10 text-emerald-300",
-              product.badge === "Digital Product" && "border-violet-500/40 bg-violet-500/10 text-violet-300",
-              product.badge === "Bundle" && "border-amber-500/40 bg-amber-500/10 text-amber-300"
+              "border-atlas-blue/40 bg-atlas-blue/90 text-white backdrop-blur-sm",
+              product.badge === "Service" && "border-emerald-500/40 bg-emerald-600/90 text-white",
+              product.badge === "Digital Product" && "border-violet-500/40 bg-violet-600/90 text-white",
+              product.badge === "Bundle" && "border-amber-500/40 bg-amber-600/90 text-white"
             )}
           >
             {product.badge ?? categoryLabels[product.category]}
           </Badge>
         </div>
-        <div className="absolute bottom-3 right-4 flex items-center gap-1.5">
-          {isPreview && (
-            <span className="rounded-full border border-amber-500/40 bg-amber-500/10 px-2 py-0.5 text-[10px] font-medium text-amber-300">
+
+        {/* Status — top right */}
+        {isPreview && (
+          <div className="absolute right-3 top-3">
+            <span className="rounded-full border border-amber-500/50 bg-amber-500/20 px-2 py-0.5 text-[10px] font-medium text-amber-300 backdrop-blur-sm">
               {statusLabels[product.status]}
             </span>
-          )}
-        </div>
-        <Sparkles className="absolute bottom-3 left-4 h-5 w-5 text-atlas-blue/40" />
+          </div>
+        )}
+        <Sparkles className="pointer-events-none absolute bottom-3 left-3 h-4 w-4 text-atlas-blue/50" />
       </div>
 
       {/* Body */}

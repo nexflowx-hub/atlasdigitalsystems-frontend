@@ -61,6 +61,8 @@ export type Product = {
   featured?: boolean;
   sort?: number;
   createdAt?: string;
+  /** Path to a hyperrealistic product visual in /public. */
+  image?: string;
 };
 
 export const categoryLabels: Record<ProductCategory, string> = {

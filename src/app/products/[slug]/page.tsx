@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import {
   ArrowLeft,
@@ -222,6 +223,22 @@ export default async function ProductDetailPage({
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-atlas-muted sm:text-lg">
             {product.tagline}
           </p>
+
+          {product.image && (
+            <div className="mt-8 overflow-hidden rounded-2xl border border-atlas-border">
+              <div className="relative aspect-[1344/768] w-full">
+                <Image
+                  src={product.image}
+                  alt={`${product.name} visual`}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 1000px"
+                  className="object-cover"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-atlas-void/60 to-transparent" />
+              </div>
+            </div>
+          )}
         </div>
       </section>
 

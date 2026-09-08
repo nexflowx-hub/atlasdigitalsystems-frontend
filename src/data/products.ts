@@ -12,6 +12,7 @@ export const products: Product[] = [
     slug: "atlas-ai-workspace",
     name: "Atlas AI Workspace",
     tagline: "An AI-powered workspace for business writing, research and productivity.",
+    image: "/images/products/atlas-ai-workspace.png",
     description:
       "An AI-powered workspace for business writing, research, document analysis, planning and productivity.",
     longDescription:
@@ -69,6 +70,7 @@ export const products: Product[] = [
     slug: "atlas-automate",
     name: "Atlas Automate",
     tagline: "Build and manage automated workflows connecting tasks, AI and business processes.",
+    image: "/images/products/atlas-automate.png",
     description:
       "Build and manage automated workflows connecting tasks, business processes and AI.",
     category: "saas",
@@ -95,6 +97,7 @@ export const products: Product[] = [
     slug: "atlas-data-workspace",
     name: "Atlas Data Workspace",
     tagline: "Analyse business information, documents and structured data in one workspace.",
+    image: "/images/products/atlas-data-workspace.png",
     description:
       "Analyse business information, documents and structured data through one intuitive workspace.",
     category: "saas",
@@ -141,6 +144,7 @@ export const products: Product[] = [
     slug: "atlas-business-automation-pack",
     name: "Atlas Business Automation Pack",
     tagline: "20 structured workflows, templates and guides to automate your business.",
+    image: "/images/products/business-automation-pack.png",
     description:
       "A complete pack of 20 structured workflows, automation templates, an implementation guide, AI instructions and business process templates.",
     category: "digital",
@@ -192,6 +196,7 @@ export const products: Product[] = [
     slug: "atlas-startup-launch-system",
     name: "Atlas Startup Launch System",
     tagline: "A complete system to take an idea from market to launch.",
+    image: "/images/products/startup-launch-system.png",
     description:
       "A structured system covering Idea, Market, Positioning, Customer, Offer, Pricing, Website, Marketing and Launch.",
     category: "digital",
@@ -314,6 +319,7 @@ export const products: Product[] = [
     category: "service",
     division: "ai",
     status: "active",
+    image: "/images/products/ai-business-setup.png",
     billingModel: "contact",
     badge: "Service",
     featured: true,

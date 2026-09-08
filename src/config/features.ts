@@ -7,7 +7,7 @@ export const features = {
   appMode: (process.env.APP_MODE as "mock" | "live") || "mock",
   paymentProvider: process.env.PAYMENT_PROVIDER || "stripe",
   contactProvider: process.env.CONTACT_PROVIDER || "mock",
-  aiProvider: process.env.AI_PROVIDER || "mock",
+  aiProvider: process.env.AI_PROVIDER || "zai",
   isLive: process.env.APP_MODE === "live",
   isMock: process.env.APP_MODE !== "live",
 } as const;
