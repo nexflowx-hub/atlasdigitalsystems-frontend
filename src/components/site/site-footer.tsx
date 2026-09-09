@@ -27,7 +27,6 @@ const footerNav = {
     { label: "API", href: "/developers/api" },
     { label: "Documentation", href: "/developers/docs" },
     { label: "Integrations", href: "/developers/integrations" },
-    { label: "Status", href: "/developers" },
     { label: "Early Access", href: "/developers" },
   ],
   resources: [
@@ -62,42 +61,38 @@ const socialLinks = [
   { icon: Linkedin, href: company.social.linkedin, label: "LinkedIn" },
   { icon: Instagram, href: company.social.instagram, label: "Instagram" },
   { icon: Youtube, href: company.social.youtube, label: "YouTube" },
-];
+].filter((item) => Boolean(item.href));
 
 export function SiteFooter() {
   const t = useTranslations();
 
   return (
     <footer className="relative mt-auto border-t border-atlas-border bg-atlas-night">
-      {/* Top accent line */}
       <div className="h-px w-full bg-gradient-to-r from-transparent via-atlas-blue/40 to-transparent" />
 
-      {/* Main footer grid */}
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-12">
-          {/* Brand column */}
           <div className="col-span-2 lg:col-span-3">
             <AtlasLogo />
-            <p className="mt-4 max-w-xs text-sm leading-relaxed text-atlas-muted">
-              {t("footer.tagline")}
-            </p>
-            <div className="mt-5 flex items-center gap-2">
-              {socialLinks.map((s) => (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={s.label}
-                  className="flex h-9 w-9 items-center justify-center rounded-md border border-atlas-border text-atlas-muted transition-colors hover:border-atlas-blue/50 hover:text-atlas-cyan"
-                >
-                  <s.icon className="h-4 w-4" />
-                </a>
-              ))}
-            </div>
+            <p className="mt-4 max-w-xs text-sm leading-relaxed text-atlas-muted">{t("footer.tagline")}</p>
+            {socialLinks.length > 0 && (
+              <div className="mt-5 flex items-center gap-2">
+                {socialLinks.map((s) => (
+                  <a
+                    key={s.label}
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={s.label}
+                    className="flex h-9 w-9 items-center justify-center rounded-md border border-atlas-border text-atlas-muted transition-colors hover:border-atlas-blue/50 hover:text-atlas-cyan"
+                  >
+                    <s.icon className="h-4 w-4" />
+                  </a>
+                ))}
+              </div>
+            )}
           </div>
 
-          {/* Link columns */}
           <FooterCol title={t("footer.products")} links={footerNav.products} className="lg:col-span-2" />
           <FooterCol title={t("footer.solutions")} links={footerNav.solutions} className="lg:col-span-2" />
           <FooterCol title={t("footer.developers")} links={footerNav.developers} className="lg:col-span-2" />
@@ -105,18 +100,11 @@ export function SiteFooter() {
           <FooterCol title={t("footer.company")} links={footerNav.company} className="lg:col-span-2" />
         </div>
 
-        {/* Legal row */}
         <div className="mt-10 border-t border-atlas-border pt-8">
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
-            <span className="text-xs font-semibold uppercase tracking-wider text-atlas-muted">
-              {t("footer.legal")}
-            </span>
+            <span className="text-xs font-semibold uppercase tracking-wider text-atlas-muted">{t("footer.legal")}</span>
             {footerNav.legal.map((l) => (
-              <Link
-                key={l.href + l.label}
-                href={l.href}
-                className="text-xs text-atlas-muted transition-colors hover:text-atlas-cyan"
-              >
+              <Link key={l.href + l.label} href={l.href} className="text-xs text-atlas-muted transition-colors hover:text-atlas-cyan">
                 {l.label}
               </Link>
             ))}
@@ -124,57 +112,36 @@ export function SiteFooter() {
         </div>
       </div>
 
-      {/* Institutional block */}
       <div className="border-t border-atlas-border bg-atlas-void/60">
         <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-12">
-            {/* Entity */}
             <div className="lg:col-span-5">
               <div className="inline-flex items-center gap-2 rounded-full border border-atlas-blue/30 bg-atlas-blue/5 px-3 py-1">
                 <FileText className="h-3.5 w-3.5 text-atlas-cyan" />
                 <span className="text-xs font-medium text-atlas-cyan">Legal Entity</span>
               </div>
-              <h3 className="mt-4 font-display text-xl font-bold text-white">
-                {company.legalName}
-              </h3>
+              <h3 className="mt-4 font-display text-xl font-bold text-white">{company.legalName}</h3>
               <p className="mt-1 text-sm text-atlas-muted">{t("footer.institutional")}</p>
               <p className="mt-1 text-sm text-atlas-muted">{company.jurisdiction}</p>
+              {company.businessAddress && (
+                <p className="mt-2 max-w-md text-xs leading-relaxed text-atlas-muted">Business address: {company.businessAddress}</p>
+              )}
               <div className="mt-3 flex flex-wrap gap-x-6 gap-y-1 text-xs text-atlas-muted">
-                <span>
-                  {t("footer.delawareFile")}:{" "}
-                  <span className="font-mono text-atlas-white/70">{company.delawareFileNumber}</span>
-                </span>
-                <span>
-                  {t("footer.domain")}:{" "}
-                  <span className="font-mono text-atlas-white/70">{company.domain}</span>
-                </span>
+                {company.delawareFileNumber && (
+                  <span>
+                    {t("footer.delawareFile")}: <span className="font-mono text-atlas-white/70">{company.delawareFileNumber}</span>
+                  </span>
+                )}
+                <span>{t("footer.domain")}: <span className="font-mono text-atlas-white/70">{company.domain}</span></span>
               </div>
             </div>
 
-            {/* Contacts */}
             <div className="lg:col-span-4">
-              <p className="text-xs font-semibold uppercase tracking-wider text-atlas-muted">
-                Contact
-              </p>
+              <p className="text-xs font-semibold uppercase tracking-wider text-atlas-muted">Contact</p>
               <ul className="mt-3 space-y-2 text-sm">
-                <li>
-                  <a href={`mailto:${company.emails.general}`} className="flex items-center gap-2 text-atlas-white/80 hover:text-atlas-cyan">
-                    <Mail className="h-4 w-4 text-atlas-cyan" />
-                    {company.emails.general}
-                  </a>
-                </li>
-                <li>
-                  <a href={`mailto:${company.emails.support}`} className="flex items-center gap-2 text-atlas-white/80 hover:text-atlas-cyan">
-                    <Mail className="h-4 w-4 text-atlas-cyan" />
-                    {company.emails.support}
-                  </a>
-                </li>
-                <li>
-                  <a href={`mailto:${company.emails.billing}`} className="flex items-center gap-2 text-atlas-white/80 hover:text-atlas-cyan">
-                    <Mail className="h-4 w-4 text-atlas-cyan" />
-                    {company.emails.billing}
-                  </a>
-                </li>
+                <ContactEmail email={company.emails.general} />
+                <ContactEmail email={company.emails.support} />
+                <ContactEmail email={company.emails.billing} />
                 <li>
                   <a href={`tel:${company.phone.e164}`} className="flex items-center gap-2 text-atlas-white/80 hover:text-atlas-cyan">
                     <Phone className="h-4 w-4 text-atlas-cyan" />
@@ -184,11 +151,8 @@ export function SiteFooter() {
               </ul>
             </div>
 
-            {/* Departments */}
             <div className="lg:col-span-3">
-              <p className="text-xs font-semibold uppercase tracking-wider text-atlas-muted">
-                Departments
-              </p>
+              <p className="text-xs font-semibold uppercase tracking-wider text-atlas-muted">Departments</p>
               <ul className="mt-3 space-y-1.5 text-sm">
                 <li><a href={`mailto:${company.emails.sales}`} className="text-atlas-white/70 hover:text-atlas-cyan">Sales</a></li>
                 <li><a href={`mailto:${company.emails.privacy}`} className="text-atlas-white/70 hover:text-atlas-cyan">Privacy</a></li>
@@ -199,15 +163,9 @@ export function SiteFooter() {
             </div>
           </div>
 
-          {/* Copyright */}
           <div className="mt-8 flex flex-col items-center justify-between gap-3 border-t border-atlas-border pt-6 sm:flex-row">
-            <p className="text-xs text-atlas-muted">
-              © {company.copyrightYear} {company.legalName}. {t("footer.rights")}
-            </p>
-            <p className="flex items-center gap-1.5 text-xs text-atlas-muted">
-              <MapPin className="h-3 w-3" />
-              {company.jurisdiction}
-            </p>
+            <p className="text-xs text-atlas-muted">© {company.copyrightYear} {company.legalName}. {t("footer.rights")}</p>
+            <p className="flex items-center gap-1.5 text-xs text-atlas-muted"><MapPin className="h-3 w-3" />{company.jurisdiction}</p>
           </div>
         </div>
       </div>
@@ -215,24 +173,25 @@ export function SiteFooter() {
   );
 }
 
-function FooterCol({
-  title,
-  links,
-  className,
-}: {
-  title: string;
-  links: { label: string; href: string }[];
-  className?: string;
-}) {
+function ContactEmail({ email }: { email: string }) {
+  return (
+    <li>
+      <a href={`mailto:${email}`} className="flex items-center gap-2 text-atlas-white/80 hover:text-atlas-cyan">
+        <Mail className="h-4 w-4 text-atlas-cyan" />
+        {email}
+      </a>
+    </li>
+  );
+}
+
+function FooterCol({ title, links, className }: { title: string; links: { label: string; href: string }[]; className?: string }) {
   return (
     <div className={className}>
       <h4 className="text-xs font-semibold uppercase tracking-wider text-atlas-muted">{title}</h4>
       <ul className="mt-4 space-y-2.5">
         {links.map((l) => (
           <li key={l.href + l.label}>
-            <Link href={l.href} className="text-sm text-atlas-white/70 transition-colors hover:text-atlas-cyan">
-              {l.label}
-            </Link>
+            <Link href={l.href} className="text-sm text-atlas-white/70 transition-colors hover:text-atlas-cyan">{l.label}</Link>
           </li>
         ))}
       </ul>

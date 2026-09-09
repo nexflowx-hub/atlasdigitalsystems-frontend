@@ -2,82 +2,45 @@ import type { Metadata } from "next";
 import { PageHeader, PageSection } from "@/components/site/page-header";
 import { ProseContent } from "@/components/site/prose-content";
 import { company } from "@/config/company";
+import { stripeConfig } from "@/config/stripe";
 
 export const metadata: Metadata = {
   title: "Payment Methods",
-  description: `The payment methods, currencies and billing practices supported by ${company.legalName}.`,
+  description: `Payment methods, currencies and billing practices for ${company.legalName}.`,
 };
 
 export default function PaymentMethodsPage() {
+  const stripeState = stripeConfig.isConfigured
+    ? "Stripe Checkout is configured as the hosted payment flow for eligible online purchases."
+    : "Atlas is preparing Stripe Checkout as its primary hosted online checkout integration. Until online checkout is enabled, the website will not simulate a public payment.";
+
   return (
     <>
       <PageHeader
-        eyebrow="LEGAL"
+        eyebrow="PAYMENTS"
         title="Payment Methods"
-        subtitle={`An overview of the payment methods, currencies and billing practices supported by ${company.legalName}.`}
+        subtitle={`Payment, currency and billing information for ${company.legalName}.`}
       />
       <PageSection>
         <ProseContent>
-          <p className="text-xs uppercase tracking-[0.18em] text-atlas-muted">
-            Last updated: {company.copyrightYear}
-          </p>
+          <p className="text-xs uppercase tracking-[0.18em] text-atlas-muted">Last updated: {company.copyrightYear}</p>
 
           <h2>1. Payment Provider</h2>
+          <p>{stripeState}</p>
           <p>
-            Payments for {company.legalName} (“Atlas”) products and services
-            are processed by Stripe, Inc. or its affiliates (our payment
-            processor). Atlas does not need to directly store complete card
-            details when Stripe Checkout is used. Sensitive card data is
-            handled by Stripe subject to its security and compliance
-            programmes.
+            When hosted checkout is active, customers enter complete card details on the payment provider's secure checkout page. Atlas does not need to directly collect or store complete card numbers.
           </p>
 
-          <h2>2. Available Cards</h2>
+          <h2>2. Available Payment Methods</h2>
           <p>
-            Where supported by Stripe in your region, the following card
-            networks are accepted:
+            The methods actually offered to a customer are the methods displayed during checkout. Availability may vary by product, currency, customer location, device and the payment provider's account configuration.
           </p>
-          <ul>
-            <li>Visa</li>
-            <li>Mastercard</li>
-            <li>American Express</li>
-          </ul>
           <p>
-            Card acceptance is enabled only when the relevant network is
-            enabled for your account by the payment processor. Availability
-            may vary by country, currency and product.
+            Eligible card networks may include Visa, Mastercard and American Express. Eligible digital wallets may include Apple Pay, Google Pay and Link when they are enabled and supported for the transaction. A method not displayed at checkout should not be treated as accepted for that purchase.
           </p>
 
-          <h2>3. Digital Checkout</h2>
-          <p>
-            Where supported by Stripe in your region and device, the following
-            digital checkout methods may be available:
-          </p>
-          <ul>
-            <li>Apple Pay</li>
-            <li>Google Pay</li>
-            <li>Link</li>
-          </ul>
-          <p>
-            Digital checkout methods are only available once enabled by the
-            payment processor for your region and configuration. Availability
-            may depend on your browser, device and card network.
-          </p>
-
-          <h2>4. Payment Method Slots</h2>
-          <p>
-            The Atlas checkout presents a defined set of payment method slots.
-            Each slot is filled only when the corresponding method has been
-            enabled by Stripe for your region and currency. If a method is not
-            shown at checkout, it is not currently available for your
-            transaction.
-          </p>
-
-          <h2>5. Currencies</h2>
-          <p>
-            Where supported, Atlas accepts payment in the following
-            currencies:
-          </p>
+          <h2>3. Currencies</h2>
+          <p>Atlas product data can contain explicitly configured prices in:</p>
           <ul>
             <li>United States Dollar (USD)</li>
             <li>British Pound (GBP)</li>
@@ -85,83 +48,42 @@ export default function PaymentMethodsPage() {
             <li>Brazilian Real (BRL)</li>
           </ul>
           <p>
-            Currency availability may vary by product, region and payment
-            method. Displayed prices are converted according to the rates and
-            rules of the payment processor at the time of the transaction.
+            These are configured regional prices, not a promise of live foreign-exchange conversion. If your payment account is denominated in a different currency, your bank or card issuer may apply its own conversion rate or fees.
           </p>
 
-          <h2>6. Subscriptions</h2>
+          <h2>4. One-Time Purchases</h2>
           <p>
-            Subscription products are billed automatically on a recurring
-            basis using the payment method on file. Recurring charges
-            continue until you cancel the subscription or until the
-            subscription otherwise ends. For more detail, see our
-            Cancellation Policy.
+            Eligible digital products are charged once. The product page and checkout identify the item, price, currency, seller and delivery model before payment.
           </p>
 
-          <h2>7. Payment Confirmation</h2>
+          <h2>5. Subscriptions</h2>
           <p>
-            Once your payment is authorized by the payment processor, you will
-            receive an email receipt and access to the purchased product or
-            service will be enabled. For SaaS, digital products and AI
-            credits, access is typically enabled within minutes of payment
-            confirmation.
+            Active SaaS products may use recurring billing. The plan price and billing frequency are shown before checkout. Recurring charges continue until the subscription ends or is cancelled according to our <a href="/cancellation-policy">Cancellation Policy</a> and any product-specific terms.
           </p>
 
-          <h2>8. Failed Payments</h2>
+          <h2>6. Digital Delivery</h2>
           <p>
-            If a payment fails, we or the payment processor may attempt to
-            charge the payment method again or request updated payment
-            information. If payment remains unsuccessful, access to the
-            affected product or service may be suspended or cancelled in
-            accordance with our Terms of Service.
+            Software and SaaS products are provided electronically according to the relevant product status and delivery process. Downloadable digital products are delivered electronically after confirmed payment. Professional services are delivered according to the agreed scope and timeline. See our <a href="/delivery-policy">Delivery Policy</a>.
           </p>
 
-          <h2>9. Refund Processing</h2>
+          <h2>7. Failed or Pending Payments</h2>
           <p>
-            Approved refunds are processed back to the original payment method
-            where possible. The time it takes for a refund to appear on your
-            statement depends on your bank or payment processor. For more
-            detail, see our <a href="/refund-policy">Refund Policy</a>.
+            If a payment fails or remains pending, an order is not treated as fulfilled merely because a browser reaches a success page. Atlas relies on verified server-side payment status before fulfilment.
           </p>
 
-          <h2>10. Security of Payments</h2>
+          <h2>8. Refund Processing</h2>
           <p>
-            Atlas does not need to directly store complete card details when
-            Stripe Checkout is used. We use TLS to encrypt data in transit and
-            rely on Stripe’s security programme for the handling of sensitive
-            card data. No payment system is completely secure, and we cannot
-            guarantee that payment data will never be exposed. See our{" "}
-            <a href="/security">Security page</a> for more information.
+            Approved refunds are returned to the original payment method where possible. Timing depends on the payment provider and the customer's bank. See our <a href="/refund-policy">Refund Policy</a> for eligibility and request procedures.
           </p>
 
-          <h2>11. Taxes</h2>
+          <h2>9. Taxes</h2>
           <p>
-            Applicable taxes may be calculated during checkout based on your
-            billing address, product type and applicable tax rules. Where
-            Atlas is required to collect tax, the tax amount will be displayed
-            before you complete your purchase.
+            Applicable taxes may be calculated during checkout depending on product type, customer location and applicable rules. Where tax is collected, the amount will be shown before the customer completes payment.
           </p>
 
-          <h2>12. Changes</h2>
+          <h2>10. Billing Support</h2>
           <p>
-            We may update the available payment methods and currencies from
-            time to time. If we make material changes, we will provide notice
-            through the Service or by other reasonable means.
-          </p>
-
-          <h2>13. Billing Support</h2>
-          <p>
-            For billing questions, including refunds, duplicate charges and
-            failed payments, please contact our billing team at{" "}
-            <a href={`mailto:${company.emails.billing}`}>
-              {company.emails.billing}
-            </a>{" "}
-            or by phone at{" "}
-            <a href={`tel:${company.phone.e164}`}>
-              {company.phone.display}
-            </a>{" "}
-            ({company.phone.note}).
+            For billing questions, duplicate charges, payment issues or refund requests, contact <a href={`mailto:${company.emails.billing}`}>{company.emails.billing}</a> or call <a href={`tel:${company.phone.e164}`}>{company.phone.display}</a> ({company.phone.note}).
           </p>
         </ProseContent>
       </PageSection>

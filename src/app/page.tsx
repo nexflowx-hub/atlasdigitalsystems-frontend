@@ -2,6 +2,7 @@ import { HeroSection } from "@/components/site/sections/hero-section";
 import { DivisionsSection } from "@/components/site/sections/divisions-section";
 import { FeaturedProductsSection } from "@/components/site/sections/featured-products-section";
 import { BusinessSection } from "@/components/site/sections/business-section";
+import { CommerceStripSection } from "@/components/site/sections/commerce-strip-section";
 import { DigitalProductsSection, SaasProductsSection } from "@/components/site/sections/catalog-sections";
 import { HowItWorksSection } from "@/components/site/sections/how-it-works-section";
 import { DevelopersSection } from "@/components/site/sections/developers-section";
@@ -24,7 +25,6 @@ const organizationSchema = {
     addressCountry: "US",
     addressRegion: "Delaware",
   },
-  areaServed: "Global",
   knowsAbout: ["Software", "SaaS", "Artificial Intelligence", "Automation", "Data"],
 };
 
@@ -50,6 +50,7 @@ export default function Home() {
       <DivisionsSection />
       <FeaturedProductsSection />
       <BusinessSection />
+      <CommerceStripSection />
       <DigitalProductsSection />
       <SaasProductsSection />
       <HowItWorksSection />

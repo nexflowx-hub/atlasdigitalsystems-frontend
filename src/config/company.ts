@@ -1,41 +1,32 @@
 /**
  * ATLAS DIGITAL SYSTEMS — central company configuration.
- * All company facts live here so they can be updated in one place.
+ * Public corporate facts live here so they can be updated in one place.
  * Environment variables override defaults where provided.
  */
+const optional = (value?: string) => value?.trim() || "";
+
 export const company = {
   brandName: "ATLAS DIGITAL SYSTEMS",
   legalName: "ATLAS DIGITAL SYSTEMS, LLC",
   shortName: "Atlas",
   domain: "atlasdigitalsystems.co",
-  siteUrl:
-    process.env.NEXT_PUBLIC_SITE_URL || "https://atlasdigitalsystems.co",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://atlasdigitalsystems.co",
   entityType: "Limited Liability Company",
   jurisdiction: "Delaware, United States",
-  delawareFileNumber:
-    process.env.NEXT_PUBLIC_DELAWARE_FILE_NUMBER || "[DELAWARE_FILE_NUMBER]",
-  businessAddress:
-    process.env.NEXT_PUBLIC_BUSINESS_ADDRESS || "[ATLAS_BUSINESS_ADDRESS]",
+  delawareFileNumber: optional(process.env.NEXT_PUBLIC_DELAWARE_FILE_NUMBER),
+  businessAddress: optional(process.env.NEXT_PUBLIC_BUSINESS_ADDRESS),
   primaryBusiness:
     "Software, SaaS, artificial intelligence, automation and digital technology products.",
   copyrightYear: 2026,
   emails: {
-    general:
-      process.env.NEXT_PUBLIC_GENERAL_EMAIL || "hello@atlasdigitalsystems.co",
-    support:
-      process.env.NEXT_PUBLIC_SUPPORT_EMAIL || "support@atlasdigitalsystems.co",
+    general: process.env.NEXT_PUBLIC_GENERAL_EMAIL || "hello@atlasdigitalsystems.co",
+    support: process.env.NEXT_PUBLIC_SUPPORT_EMAIL || "support@atlasdigitalsystems.co",
     sales: process.env.NEXT_PUBLIC_SALES_EMAIL || "sales@atlasdigitalsystems.co",
-    billing:
-      process.env.NEXT_PUBLIC_BILLING_EMAIL || "billing@atlasdigitalsystems.co",
-    privacy:
-      process.env.NEXT_PUBLIC_PRIVACY_EMAIL || "privacy@atlasdigitalsystems.co",
-    security:
-      process.env.NEXT_PUBLIC_SECURITY_EMAIL ||
-      "security@atlasdigitalsystems.co",
+    billing: process.env.NEXT_PUBLIC_BILLING_EMAIL || "billing@atlasdigitalsystems.co",
+    privacy: process.env.NEXT_PUBLIC_PRIVACY_EMAIL || "privacy@atlasdigitalsystems.co",
+    security: process.env.NEXT_PUBLIC_SECURITY_EMAIL || "security@atlasdigitalsystems.co",
     legal: process.env.NEXT_PUBLIC_LEGAL_EMAIL || "legal@atlasdigitalsystems.co",
-    developers:
-      process.env.NEXT_PUBLIC_DEVELOPERS_EMAIL ||
-      "developers@atlasdigitalsystems.co",
+    developers: process.env.NEXT_PUBLIC_DEVELOPERS_EMAIL || "developers@atlasdigitalsystems.co",
   },
   phone: {
     display: "+1 302-595-5455",
@@ -43,10 +34,10 @@ export const company = {
     note: "Voice & SMS",
   },
   social: {
-    linkedin: "https://www.linkedin.com/",
-    x: "https://x.com/",
-    youtube: "https://www.youtube.com/",
-    instagram: "https://www.instagram.com/",
+    linkedin: optional(process.env.NEXT_PUBLIC_LINKEDIN_URL),
+    x: optional(process.env.NEXT_PUBLIC_X_URL),
+    youtube: optional(process.env.NEXT_PUBLIC_YOUTUBE_URL),
+    instagram: optional(process.env.NEXT_PUBLIC_INSTAGRAM_URL),
   },
   positioning: {
     primary: "Build smarter. Operate faster.",
